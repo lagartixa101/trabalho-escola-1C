@@ -1,1 +1,22 @@
 /*geral*/
+body {
+    background-color: #000000;
+}
+
+/*cabeçalho*/
+#cabecalho {
+    height: 100px;
+    width: 900px;
+    background-color: #353030;
+}
+
+/*base*/
+
+
+/*rodapé*/
+#rodape {
+    height: 100px;
+    width: 900px;
+    background-color: #353030;
+}
+

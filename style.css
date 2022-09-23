@@ -8,6 +8,13 @@ body {
     height: 100px;
     width: 1350px;
     background-color: #353030;
+    margin: auto;
+    padding: 0px;
+}
+
+.menu1 {
+    text-align: right;
+    list-style-type: none
 }
 
 /*base*/
@@ -18,5 +25,6 @@ body {
     height: 100px;
     width: 1350px;
     background-color: #353030;
+    margin: auto;
+    padding: 0px;
 }
-

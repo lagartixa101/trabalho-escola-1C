@@ -1,0 +1,307 @@
+/*Componentes Gerais*/
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.principal { 
+ width:900px; 
+ margin:0 auto; 
+ box-shadow:0px 0px 10px black;
+}
+
+h2 { 
+	margin:0; 
+	padding:0; 
+	font-family:Century Gothic, sans-serif; 
+	font-size:18px; 
+	color:#E85846;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic, sans-serif;
+	font-size: 16px;
+	color: #FFFFFF;
+	text-indent: 20px;
+}
+/*Cabeçalho*/
+
+.inicio {
+	display: table;
+}
+
+.nome {
+	float: left;
+	width: 360px;
+	padding: 20px;
+}
+
+.nome h1 {
+	margin:0;
+	padding:0;
+	font-family:Century Gothic, sans-serif;
+	font-size:40px; 
+	text-indent:20px; 
+	float:left;
+}
+
+.nome img {
+	float: left;
+	margin-left: 7px;
+	width: 55px;
+	height: 40px;
+}
+
+.nome a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.menu {
+	float:left;
+	margin-top:15px;
+	width:460px;
+	padding:20px;
+	font-family:Century Gothic, sans-serif;
+	font-size:16px;
+}
+
+.menu ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+	float:right;
+}
+
+.menu ul li {
+	display:inline-block;
+	position:relative;
+}
+
+.menu ul li a {
+	text-decoration:none;
+	text-transform:uppercase;
+	padding:5px 10px;
+	border-radius:5px;
+	color:#000000;
+}
+
+.menu ul li a:hover {
+	background:#E85846;
+	color:#FFFFFF;
+}
+
+/*Rodapé*/
+
+.fim {
+	background-color: #000000;
+	display: table;
+}
+
+.linksrodape {
+	width: 185px;
+	padding: 20px;
+	float: left;
+}
+
+.dadosrodape1 {
+	width: 185px;
+	padding: 20px;
+	float: left;
+}
+
+.dadosrodape2 {
+	width: 185px;
+	padding: 20px;
+	float: left;
+	word-wrap: break-word;
+}
+
+.imgrodape {
+	width: 185px;
+	padding: 20px;
+	float: left;
+}
+
+.fim h2 { 
+	color: #FFFFFF; 
+	margin-bottom: 10px; 
+	text-transform: uppercase;
+}
+
+.linksrodape ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.linksrodape ul li a { 
+	text-decoration: none; 
+	color: #FFFFFF; 
+	font-family: Century Gothic, sans-serif; 
+	font-size: 16px;
+}
+
+.linksrodape ul li a:hover {
+	font-size: 18px;
+	color: #E85846;
+}
+
+.dadosrodape1, .dadosrodape2 {
+	overflow: hidden;
+}
+
+.dadosrodape1, .dadosrodape2 p {
+	color: #FFFFFF;
+	text-indent: 0px;
+}
+
+.imgrodape a {
+	text-decoration:none;
+	font-family:Century Gothic, sans-serif;
+	font-size:16px;
+	color:#FFFFFF;
+}
+
+.imgrodape ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.imgrodape ul li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 5px;
+}
+
+.imgrodape ul li a, .imgrodape ul li img {
+	vertical-align: middle;
+}
+
+.imgrodape ul li img {
+	height: 25px;
+	width: 25px;
+}
+
+.direitos {
+	width:880px;
+	background-color:#303030;
+	padding:10px;
+}
+
+.direitos h2 {
+	color:#C0C0C0;
+	font-size:14px;
+	text-align:center;
+	font-weight:normal;
+}
+
+/*Página Index*/
+
+#apresentacao {
+	display: table;
+}
+
+#imgapresentacao {
+	width: 500px;
+	float: left;
+}
+
+#descricao {
+	width: 260px;
+	padding-left: 20px;
+	padding-right: 20px;
+	float: left;
+}
+
+#descricao h2 {
+	text-align: center;
+}
+
+#descricao p {
+	margin-top: 10px;
+	color: #000000;
+}
+
+#destque {
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#amostras {
+	display: table;
+	padding-bottom: 20px;
+}
+
+.imgamostra {
+	float: left;
+	width: 205px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.imgamostra h2 {
+	text-align: center;
+}
+
+/*Página Contato*/
+
+#contatoarea {
+	width: 900px;
+	display: table;
+}
+
+#dadoscontato {
+	width: 260px;
+	float: left;
+	padding: 20px;
+}
+
+#dadoscontato h2 {
+	margin-bottom: 10px;
+}
+
+#dadoscontato ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+	font-family:Century Gothic, sans-serif;
+	font-size:16px;
+	margin-top:10px; 
+}
+
+#formcontato label {
+	display:block;
+	font-family:Century Gothic, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+}
+
+#formcontato input, #formcontato textarea {
+	display:block;
+	margin-bottom:20px;
+	width:500px; 
+}
+
+#formcontato input .botao {
+	width:auto; 
+}
+
+input.botao {
+	background-color:#E85846;
+	font-family:Century Gothic, sans-serif;
+	text-transform:uppercase;
+	padding:5px 10px;
+	border-radius:5px;
+	color:#EBEBEB;
+	cursor:pointer; 
+}
+
+input.botao:hover {
+	background-color:#000000;
+}
